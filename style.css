@@ -1,0 +1,181 @@
+*,html{
+	padding: 0;
+	margin:0;
+	scroll-behavior: smooth
+}
+header{
+	background-color: #1A2238;
+	color: white;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+	
+h1{
+    font-size:23px;
+	color:#00BFFF;
+	margin:15px;
+
+}
+nav ul{
+	display: flex;
+	padding:15px;
+	margin:8px;
+}
+
+li{
+	list-style-type: none;
+}
+
+li a:hover{
+	color:#00BFFF;
+	
+}
+	
+.btn{
+	margin:8px;
+	border:none;
+	font-size:12;
+	color:white;
+	padding: 6px 12px;
+	background-color: #00BFFF;
+	border-radius:8px;	
+	flex-wrap= wrap;
+}
+
+.btn:hover{
+	background-color:blue;
+	color:white;	
+}
+.logo{
+	margin-right: auto;
+	cursor:pointer;
+}
+
+.nav{
+	margin: 5px;
+}
+	
+a{
+	color: eaeaea;
+	text-decoration: none;
+}
+
+.container{
+	max-width:1200px;
+	margin: 0 auto;
+	padding: 70px;	 
+}
+
+.intro{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center; 	
+	text-align:center;
+
+}
+
+.img{
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px 3px #1A2238;
+}
+	
+
+.introduce{
+	padding:18px;
+	font-size:22;
+	font-weight:bold;
+	color:black
+}
+
+.dekskripsi{
+	padding:5px;
+	font-size:15; 	
+	color:black
+}
+
+.parallax{
+	background-image: url('asset/gambar/gambar3.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100vh;
+	
+}
+.tentang{
+	display: flex;
+	flex-direction:column;
+	background: #1A2238;
+	color:white;
+	justify-content: center;
+	align-items: center;
+	padding:15px;
+}
+
+.introduce1{
+	font-size:20;
+	font-weight:bold;
+}
+
+.dekskripsi2{
+	font-size:20;
+	font-weight:bold;
+	
+}
+.dekskripsi3{
+	font-size:10;
+	padding-top:8px;
+}
+.btn1{
+	padding:2px;
+	margin:8px;
+	border:none;
+	font-size:12;
+	color:white;
+	padding: 6px 12px;
+	background-color: #00BFFF;
+	border-radius:8px;	
+	flex-wrap= wrap;
+}
+.card{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	gap:13px;
+	
+	
+}
+.card-item{
+	width:25%;
+	background:#001A2238;
+	color:white;
+	padding: 35px;
+	border-radius: 12px;
+	box-shadow: 2px 2px 2px 2px #1A2238;
+}
+.card-item1{
+}
+@media screen and (max-width: 620px) {
+	.card{
+		flex-direction:column;
+	}
+	.card-item{
+		width:80%;
+	}
+	.container{
+		padding:40px;
+		height:100%
+	}
+	.img{
+		width: 80%;
+		height: 100%
+	}
+}
+
+
+	
